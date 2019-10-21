@@ -12,15 +12,10 @@ html{
 
 .wrapper {
     margin: 0.1% 15% 10% 17%;
-    /* display: inline-block; */
 }
-/* .submit {
-    margin-left: -7vw;
-} */
 
 form{
     justify-content: center;
-    /* margin-left: 3vw; */
 }
 
 .heading {
@@ -33,9 +28,13 @@ form{
 
 button {
     margin: auto;
+    padding: auto;
     display: inline;
     font-family: 'Space Mono', monospace;
+    font-size: 11pt;
     box-shadow: 1px 1px 2px #545454;
+    height: 30px;
+    width: 55px;
 }
 h1 {
     color: #545454;
@@ -59,6 +58,12 @@ img {
 p {
     justify-content: center;
     text-align: center;
-    /* margin-right: -5vw; */
     font-size: 14pt;
+}
+
+#foot {
+    font-size: 8pt;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    margin: 55rem;
 }
